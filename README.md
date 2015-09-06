@@ -1,4 +1,4 @@
-### In development no install should be made (contributions are welcome :D)
+### In development (contributions are welcome :D)
 
 ### usage
 

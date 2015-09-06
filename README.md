@@ -1,5 +1,23 @@
 ### In development no install should be made (contributions are welcome :D)
 
+### usage
+
+```js
+import Model from "base-model"
+
+// override defaults
+Model.configure({
+  primaryKey: '_id'
+})
+// hopefully I will create a mixin version as well for coffee-script and es5
+export class Thing extends Model {}
+
+Thing.create({name: "thingy"}).then(value => {
+  console.log("yay I`m saved: ", value.id)
+})
+
+```
+
 ### api (in flux)
 
 #### Model#configure(options) => this
